@@ -36,7 +36,7 @@
         websocketString=`wss://${window.location.hostname}/ws`
     }
 
-    var ws = new WebSocket("ws://localhost:8000/ws");
+    var ws = new WebSocket("websocketString");
 
     var sendButton = document.getElementById("sendButton");
     var userInput = document.getElementById("userInput");

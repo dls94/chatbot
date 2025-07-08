@@ -1,6 +1,5 @@
 from pyexpat.errors import messages
 import os
-import asyncio
 from openai import OpenAI
 from fastapi import FastAPI, Form, Request, WebSocket
 from typing import Annotated
@@ -9,7 +8,6 @@ from fastapi.responses import HTMLResponse
 from dotenv import load_dotenv
 
 load_dotenv()
-
 
 app = FastAPI()
 
