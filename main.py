@@ -25,7 +25,7 @@ async def chat_page(request: Request):
 
 
 chat_log = [{'role': 'system',
-             'content': 'You tell jokes'}]
+             'content': 'You are a Masterchef'}]
 
 @app.websocket("/ws")
 async def chat(websocket: WebSocket):
